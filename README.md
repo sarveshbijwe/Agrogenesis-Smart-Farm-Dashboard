@@ -25,7 +25,7 @@ To run this project locally, you only need a modern web browser like Chrome, Fir
    cd Agrogenesis-Smart-Farm-Dashboard
 ## 📸 Screenshots
 ### Crop Monitoring
-![Crop Monitoring](.screenshot/1.png)
+![Crop Monitoring](.bac.jpg)
 ### Fertilizer Recommendations
 ![Fertilizer Recommendations](.screenshot/2.png)
 ### Insurance Claims Tracking
