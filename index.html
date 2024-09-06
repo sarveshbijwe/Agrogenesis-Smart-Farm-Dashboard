@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrogenesis Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="text-center my-4">
+            <h1>Agrogenesis Dashboard</h1>
+        </header>
+        <main>
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h2>Soil Moisture Levels</h2>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="soilMoistureChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h2>Weather Conditions</h2>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="weatherChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h2>Nutrient Levels</h2>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="nutrientChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h2>Pest Detection</h2>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="pestDetectionChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card mb-4">
+                        <div class="card-header2">
+                            <h2>Recommendations and Alerts</h2>
+                        </div>
+                        <div class="card-body">
+                            <ul id="recommendations" class="list-group">
+                                <li class="list-group-item">Loading...</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-4">
+                        <div class="card-header2">
+                            <h2>Predictive Analytics</h2>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="predictiveAnalyticsChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h2>Fertilizer Usage</h2>
+                        </div>
+                        <div class="card-body">
+                            <img src="ferti.jpg" alt="Insurance Coverage Image" class="card-img"></img>
+                            <canvas id="fertilizerChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h2>Insurance Coverage</h2>
+                        </div>
+                        <div class="card-body">
+                            <img src="insurance.jpg" alt="Insurance Coverage Image" class="card-img"></img>
+                            <canvas id="insuranceChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h2>Crop Yield</h2>
+                        </div>
+                        <div class="card-body">
+                            <img src="crop.webp" alt="Insurance Coverage Image" class="card-img"></img>
+                            <canvas id="cropChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card mb-4">
+                        <div class="card-header3">
+                            <h2>Farmer Feedback</h2>
+                        </div>
+                        <div class="card-body">
+                            <ul id="feedback" class="list-group">
+                                <li class="list-group-item">Loading...</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-4">
+                        <div class="card-header3">
+                            <h2>System Performance</h2>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="performanceChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="text-center my-4">
+            <p> <h3>&copy; 2024 Agrogenesis Project (Sarvesh Bijwe)</h3></p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

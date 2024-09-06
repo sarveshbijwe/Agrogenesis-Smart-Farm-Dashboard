@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('bac.jpg');
+
+    background-size: cover; /* ensures the image covers the entire area */
+    background-repeat: no-repeat; /* prevents the image from repeating */
+    background-position: center;
+
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-image: url('sarvesh.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+    border-radius: 15px;
+    border: 3px solid #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    border: 2px solid #020201;
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #16de66;
+    color: white;
+    padding: 15px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-header2{
+    background-color: #129aee;
+    color: white;
+    padding: 15px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.card-header3{
+    background-color: #129aee;
+    color: white;
+    padding: 15px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-body {
+    background-color: white;
+    padding: 20px;
+}
+
+/* List Group */
+.list-group-item {
+    background-color: #f8f9fa;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    border: 3px solid #fff;
+}
+
+
+
+/* Exter img */
+
+/* Styles for images inside cards */
+.card-img {
+    width: 100%; /* Adjust to fit the container width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 300px; /* Adjust to your preferred maximum height */
+    object-fit: cover; /* Cover the container, cropping if necessary */
+    display: block;
+    margin: 0 auto; /* Center the image if needed */
+}
+
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
