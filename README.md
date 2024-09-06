@@ -30,6 +30,8 @@ To run this project locally, you only need a modern web browser like Chrome, Fir
 ![Fertilizer Recommendations](./ferti.jpg)
 ### Insurance Claims Tracking
 ![Insurance Claims Tracking](./insurance.jpg)
+### Insurance Claims Tracking
+![Insurance Claims Tracking](./insurance.jpg)
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
