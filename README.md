@@ -1,6 +1,9 @@
 # Agrogenesis - Smart Farm Management Dashboard
 
 Agrogenesis is a web-based solution developed to empower farmers with real-time insights into their farms, enabling smart decisions for better productivity and sustainability. This project integrates data analysis and modern technologies to help monitor farm conditions, recommend fertilizers, and track insurance claims efficiently.
+## 🌐 Live Demo
+
+Check out the live project at [Agrogenesis Smart Farm Management Dashboard](https://agrogenesis.netlify.app/)
 
 ## 🌱 Key Features
 - **Real-time Crop and Soil Monitoring**: Provides up-to-date information about the health of crops and soil, helping farmers make data-driven decisions.
