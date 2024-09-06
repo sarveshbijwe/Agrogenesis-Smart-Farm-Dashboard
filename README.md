@@ -23,4 +23,22 @@ To run this project locally, you only need a modern web browser like Chrome, Fir
    ```bash
    git clone https://github.com/sarveshbijwe/Agrogenesis-Smart-Farm-Dashboard.git
    cd Agrogenesis-Smart-Farm-Dashboard
+## 📸 Screenshots
+### Crop Monitoring
+![Crop Monitoring](./crop.webp)
+### Fertilizer Recommendations
+![Fertilizer Recommendations](./ferti.jpg)
+### Insurance Claims Tracking
+![Insurance Claims Tracking](./insurance.jpg)
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/yourusername/Agrogenesis-Smart-Farm-Dashboard/issues) or make a pull request.
+
+## ⚖️ License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 👤 Authors
+**Sarvesh** - Developer and Project Owner  
+[LinkedIn Profile](https://www.linkedin.com/in/yourlinkedin)
 
