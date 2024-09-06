@@ -24,13 +24,14 @@ To run this project locally, you only need a modern web browser like Chrome, Fir
    git clone https://github.com/sarveshbijwe/Agrogenesis-Smart-Farm-Dashboard.git
    cd Agrogenesis-Smart-Farm-Dashboard
 ## 📸 Screenshots
-### Crop Monitoring
+### Dashboard Screenshots
+
 ![Crop Monitoring](./screenshot/1.png)
-### Fertilizer Recommendations
+
 ![Fertilizer Recommendations](./screenshot/2.png)
-### Insurance Claims Tracking
+
 ![Insurance Claims Tracking](./screenshot/3.png)
-### Insurance Claims Tracking
+
 ![Insurance Claims Tracking](./screenshot/4.png)
 
 ## 🤝 Contributing
